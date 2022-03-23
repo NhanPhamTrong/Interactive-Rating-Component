@@ -1,0 +1,17 @@
+body {
+    min-height: 100vh;
+    background-color: $body-background;
+    font-family: 'Overpass', sans-serif;
+    color: $word-color-1;
+    display: grid;
+    place-items: center;
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        color: $word-color-2;
+        line-height: 1.5rem;
+    }
+}

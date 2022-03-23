@@ -1,0 +1,140 @@
+body {
+  min-height: 100vh;
+  background-color: #121417;
+  font-family: 'Overpass', sans-serif;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+}
+
+body h1 {
+  font-size: 1.5rem;
+}
+
+body p {
+  color: #7c8798;
+  line-height: 1.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+main {
+  width: 328px;
+  margin: 0 auto;
+  padding: 24px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: #1e252f;
+  border-radius: 10px;
+}
+
+main #rating {
+  display: block;
+}
+
+main #rating .star {
+  height: 45px;
+  width: 45px;
+  background: #252d37 url("../images/icon-star.svg") no-repeat center;
+  border-radius: 100px;
+}
+
+main #rating h1 {
+  margin: 20px 0;
+}
+
+main #rating ul {
+  margin: 25px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #rating ul li button {
+  height: 45px;
+  width: 45px;
+  background-color: #252d37;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-weight: 700;
+}
+
+main #rating ul li button:hover {
+  background-color: #7c8798;
+}
+
+main #rating ul li button.active {
+  background-color: #fb7413;
+}
+
+main #rating .submit-btn {
+  width: 100%;
+  padding: 15px 0;
+  background-color: #fb7413;
+  border: none;
+  border-radius: 100px;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+
+main #rating .submit-btn:hover {
+  background-color: white;
+  color: #fb7413;
+}
+
+main #thank-you {
+  text-align: center;
+  display: none;
+}
+
+main #thank-you .illustrator {
+  height: 110px;
+  width: 100%;
+  background: url("../images/illustration-thank-you.svg") no-repeat center;
+  background-size: contain;
+}
+
+main #thank-you .result {
+  margin: 20px 0 28px;
+  padding: 8px;
+  background-color: #252d37;
+  border-radius: 100px;
+  color: #fb7413;
+}
+
+main #thank-you h1 {
+  margin-bottom: 20px;
+}
+
+footer {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */

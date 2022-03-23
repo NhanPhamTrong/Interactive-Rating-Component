@@ -1,0 +1,90 @@
+main {
+    width: 328px;
+    margin: 0 auto;
+    padding: 24px;
+    align-self: flex-end;
+    background-color: $main-background;
+    border-radius: 10px;
+
+    #rating {
+        display: block;
+
+        .star {
+            height: 45px;
+            width: 45px;
+            background: $star-background url("../images/icon-star.svg") no-repeat center;
+            border-radius: 100px;
+        }
+
+        h1 {
+            margin: 20px 0;
+        }
+
+        ul {
+            margin: 25px 0;
+            display: flex;
+            justify-content: space-between;
+
+            li {
+                button {
+                    height: 45px;
+                    width: 45px;
+                    background-color: $button-background;
+                    border: none;
+                    border-radius: 100px;
+                    color: $word-color-1;
+                    font-weight: 700;
+                }
+
+                button:hover {
+                    background-color: $button-hover-background;
+                }
+
+                button.active {
+                    background-color: $button-active-background;
+                }
+            }
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 15px 0;
+            background-color: $submit-background;
+            border: none;
+            border-radius: 100px;
+            color: $word-color-1;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            text-transform: uppercase;
+        }
+
+        .submit-btn:hover {
+            background-color: $submit-hover-background;
+            color: $word-color-3;
+        }
+    }
+
+    #thank-you {
+        text-align: center;
+        display: none;
+
+        .illustrator {
+            height: 110px;
+            width: 100%;
+            background: url("../images/illustration-thank-you.svg") no-repeat center;
+            background-size: contain;
+        }
+
+        .result {
+            margin: 20px 0 28px;
+            padding: 8px;
+            background-color: $result-background;
+            border-radius: 100px;
+            color: $word-color-3;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+    }
+}
