@@ -118,6 +118,7 @@ main #thank-you .result {
   background-color: #252d37;
   border-radius: 100px;
   color: #fb7413;
+  display: inline-block;
 }
 
 main #thank-you h1 {
